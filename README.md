@@ -79,7 +79,7 @@ To quality for bounties, notifications must be visible [app.web3inbox.com](https
         title: "GM Hackers!",
         body: "Enjoy hacking on WalletConnect",
         icon: "https://avatars.githubusercontent.com/u/37784886?s=48&v=4",
-        url: "https://hackers.gm.walletconnect.com/",
+        url: "YOUR_URL",
         type: "promotional",
       },
     });
