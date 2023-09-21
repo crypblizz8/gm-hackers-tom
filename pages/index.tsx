@@ -110,8 +110,8 @@ const Home: NextPage = () => {
   const handleTestNotification = useCallback(async () => {
     if (isSubscribed) {
       handleSendNotification({
-        title: "GM Hacker",
-        body: "Hack it until you make it!",
+        title: "GM TOM",
+        body: "TOM is the best",
         icon: `${window.location.origin}/WalletConnect-blue.svg`,
         url: "https://hackers.gm.walletconnect.com/",
         type: "promotional",
@@ -144,7 +144,7 @@ const Home: NextPage = () => {
       if (lastBlock !== blockNumber.toString()) {
         setLastBlock(blockNumber.toString());
         return handleSendNotification({
-          title: "New block",
+          title: "New block BY TOM",
           body: blockNumber.toString(),
           icon: `${window.location.origin}/eth-glyph-colored.png`,
           url: `https://etherscan.io/block/${blockNumber.toString()}`,
