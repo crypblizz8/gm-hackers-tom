@@ -113,7 +113,7 @@ const Home: NextPage = () => {
         title: "GM TOM",
         body: "TOM is the best",
         icon: `${window.location.origin}/WalletConnect-blue.svg`,
-        url: "https://hackers.gm.walletconnect.com/",
+        url: "https://gm-hackers-tom.vercel.app/",
         type: "promotional",
       });
     }
