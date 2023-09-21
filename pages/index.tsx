@@ -60,7 +60,7 @@ const Home: NextPage = () => {
   const isW3iInitialized = useInitWeb3InboxClient({
     projectId,
     // Replace with your deployment hostname (eg: my-hack-project.vercel.app)
-    domain: "hackers.gm.walletconnect.com",
+    domain: "gm-hackers-tom.vercel.app",
   });
   const { account, setAccount, register: registerIdentity } = useW3iAccount();
   const { subscribe, unsubscribe, isSubscribed } =
